@@ -1,0 +1,20 @@
+$btn-bg: dodgerblue;
+$btn-width: calc(300px - (15px * 2));
+
+@mixin btn($background) {
+  background-color: $background;
+}
+
+button {
+  @include btn();
+  width: $btn-width;
+  padding: 10px 10px 10px 10px;
+  font-size: 13px;
+}
+
+button {
+  background-color: $btn-bg;
+  border-color: #e5e5e5;
+  border-style: solid;
+  border-width: 1px;
+}
