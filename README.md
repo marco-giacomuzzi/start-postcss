@@ -1,6 +1,6 @@
-# Start PostCSS
+# Start PostCSS con Gulp
 
-Plantilla de inicialización PostCSS y Gulp y los complementos:
+Plantilla de inicialización PostCSS con Gulp.
 
 * Instalar los paquetes: `npm install`.
 * Ejecutar el archivo Gulp: `npm start styles`.
